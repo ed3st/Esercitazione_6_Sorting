@@ -36,6 +36,8 @@ void BubbleSort(vector<T>& v)
     }
 }
 
+/*HeapSort prende in input un vettore v di oggetti di tipo T, dove T è Sortable, 
+e lo ordina sfruttando l'arlgoritmo di sorting heap sort.*/
 template<Sortable T>
 void HeapSort(vector<T>& v)
 {
